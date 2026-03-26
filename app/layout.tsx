@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "(주)하나애드아이엠씨 스타일 - 통합 마케팅 파트너",
+  title: "METAINC - 통합 마케팅 파트너",
   description: "데이터 기반 통합 디지털 마케팅 기업, 고객사의 브랜드 가치를 극대화합니다.",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({
         {/* Header */}
         <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-            <div className="text-2xl font-bold text-blue-600">HANA AD STYLE</div>
+            <div className="text-2xl font-bold text-blue-600">META-INC</div>
             <nav className="hidden md:flex space-x-8 font-medium">
               <a href="#" className="hover:text-blue-600">Company</a>
               <a href="#" className="hover:text-blue-600">Service</a>
@@ -37,10 +37,10 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-gray-800 pb-8">
               <div>
-                <h2 className="text-white text-xl font-bold mb-4">META INC</h2>
+                <h2 className="text-white text-xl font-bold mb-4">META-INC</h2>
                 <p className="text-sm leading-6">
-                  서울특별시 영등포구 의사당대로 8 삼환까뮤빌딩 2층<br />
-                  대표이사: 홍길동 | 사업자등록번호: 000-00-00000<br />
+                  서울특별시 구로구 디지털로 8 뿅뿅빌딩 2층<br />
+                  대표이사: 박치치 | 사업자등록번호: 000-00-00000<br />
                   Tel: 02-1234-5678 | Email: contact@yourdomain.com
                 </p>
               </div>
