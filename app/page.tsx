@@ -5,7 +5,7 @@ export default function Home() {
       <section className="relative bg-slate-50 py-24 md:py-40 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <span className="text-[#8C1515] font-bold tracking-widest uppercase text-sm">Creativity + Tech Solution</span>
-          <h1 className="mt-6 text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight">
+          <h1 className="mt-6 text-4xl md:text-6xl font-extrabold text-gray-700 leading-tight">
             데이터 기반의 <br className="md:hidden" />
             <span className="text-[#8C1515]">통합 디지털 마케팅</span>
           </h1>
@@ -14,7 +14,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <button className="bg-[#8C1515] text-white px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-[#6E1010]">회사소개서 다운로드</button>
-            <button className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-lg font-bold hover:bg-slate-50">포트폴리오 보기</button>
+            <button className="bg-white text-gray-700 border border-slate-200 px-8 py-4 rounded-lg font-bold hover:bg-slate-50">포트폴리오 보기</button>
           </div>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function Home() {
               <option>기타</option>
             </select>
             <textarea placeholder="문의내용" className="md:col-span-2 p-4 border border-gray-200 rounded-lg h-32 focus:outline-[#8C1515]"></textarea>
-            <button className="md:col-span-2 bg-slate-900 text-white py-4 rounded-lg font-bold text-lg hover:bg-black transition">문의하기</button>
+            <button className="md:col-span-2 bg-gray-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-gray-700 transition">문의하기</button>
           </form>
         </div>
       </section>
