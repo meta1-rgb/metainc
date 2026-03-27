@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({
         {/* Header */}
         <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-            <div className="text-2xl font-bold text-blue-600">META-INC</div>
+            <Image src="/logo.png" alt="METAINC 로고" width={160} height={40} preload />
             <nav className="hidden md:flex space-x-8 font-medium">
               <a href="#" className="hover:text-blue-600">Company</a>
               <a href="#" className="hover:text-blue-600">Service</a>
@@ -39,9 +40,9 @@ export default function RootLayout({
               <div>
                 <h2 className="text-white text-xl font-bold mb-4">META-INC</h2>
                 <p className="text-sm leading-6">
-                  서울특별시 구로구 디지털로 8 뿅뿅빌딩 2층<br />
-                  대표이사: 박치치 | 사업자등록번호: 000-00-00000<br />
-                  Tel: 02-1234-5678 | Email: contact@yourdomain.com
+                  서울특별시 구로구 디지털로32길 30 코오롱빌란트1차 7층<br />
+                  대표이사: 신요섭 | 사업자등록번호: 240-88-01769<br />
+                  Tel: 02-2103-8077 | Email: meta-inc@nate.com
                 </p>
               </div>
               <div className="flex md:justify-end space-x-4 items-end text-xs">
