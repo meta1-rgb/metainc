@@ -20,12 +20,12 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
             <Image src="/logo.png" alt="METAINC 로고" width={160} height={40} preload />
             <nav className="hidden md:flex space-x-8 font-medium">
-              <a href="#" className="hover:text-blue-600">Company</a>
-              <a href="#" className="hover:text-blue-600">Service</a>
-              <a href="#" className="hover:text-blue-600">Portfolio</a>
-              <a href="#" className="hover:text-blue-600">Contact Us</a>
+              <a href="#" className="hover:text-[#8C1515]">Company</a>
+              <a href="#" className="hover:text-[#8C1515]">Service</a>
+              <a href="#" className="hover:text-[#8C1515]">Portfolio</a>
+              <a href="#" className="hover:text-[#8C1515]">Contact Us</a>
             </nav>
-            <button className="bg-blue-600 text-white px-5 py-2 rounded-md text-sm font-bold hover:bg-blue-700 transition">
+            <button className="bg-[#8C1515] text-white px-5 py-2 rounded-md text-sm font-bold hover:bg-[#6E1010] transition">
               빠른상담
             </button>
           </div>
