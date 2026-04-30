@@ -23,7 +23,7 @@ export default function Home() {
       <section className="py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold">Our Service</h2>
+            <h2 className="text-3xl font-bold text-black">Our Service</h2>
             <div className="w-12 h-1 bg-[#8C1515] mx-auto mt-4"></div>
           </div>
           
@@ -35,7 +35,7 @@ export default function Home() {
             ].map((item, idx) => (
               <div key={idx} className="p-8 border border-gray-100 rounded-2xl hover:shadow-xl transition-shadow bg-slate-50">
                 <div className="w-12 h-12 bg-[#FCEAEA] rounded-lg flex items-center justify-center mb-6 text-[#8C1515] font-bold">0{idx+1}</div>
-                <h3 className="text-xl font-bold mb-4">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-4 text-black">{item.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -47,8 +47,8 @@ export default function Home() {
       <section className="py-24 px-4 bg-[#8C1515]">
         <div className="max-w-4xl mx-auto bg-white rounded-3xl p-8 md:p-12 shadow-2xl">
           <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold">빠른 상담 문의</h2>
-            <p className="text-gray-500 mt-2">전문가와 상담하여 비즈니스의 해답을 찾으세요.</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-black">빠른 상담 문의</h2>
+            <p className="text-black mt-2">전문가와 상담하여 비즈니스의 해답을 찾으세요.</p>
           </div>
           
           <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
